@@ -1,5 +1,5 @@
 # ISF Watchkeeper Report Reader
-The script `extract_watchkeeper.py` reads reports from ISF Watchkeeper software that are in `sample.pdf` format (a sample page is shown below), calculates some statistical values such as mean by positions and monthly periods, and prepares Excel reports with these values. This is done with the help of image processing techniques, pdf reader, and regular expressions.
+The script `extract_watchkeeper.py` reads reports from ISF Watchkeeper software such as the one shown below, calculates some statistical values such as mean by positions and monthly periods, and prepares Excel reports with these values. This is done with the help of image processing techniques, OCR, and regular expressions.
 
 ![sample page](sample.jpg)
 
